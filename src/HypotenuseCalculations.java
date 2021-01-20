@@ -1,6 +1,7 @@
 public class HypotenuseCalculations {
 
     public static void main(String[] args) {
+
         System.out.printf("the value of the hypotenuse of triangle 1 is: %.2f %n", calculateHypotenuse(3.0,4.0));
         System.out.printf("the value of the hypotenuse of triangle 2 is: %.2f %n", calculateHypotenuse(5.0,12.0));
         System.out.printf("the value of the hypotenuse of triangle 3 is: %.2f %n", calculateHypotenuse(8.0,15.0));

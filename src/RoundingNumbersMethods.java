@@ -14,31 +14,27 @@ public class RoundingNumbersMethods {
 
     }
 
-    public static double roundToInteger(double x){
+    public static void roundToInteger(double x){
         double y;
         y = Math.floor(x * 10 + 0.5) / 10;
         System.out.println("value of y after rounding to integer position: " + y);
-        return y;
     }
 
-    public static double  roundToTenths(double x){
+    public static void roundToTenths(double x){
         double y;
         y = Math.floor(x * 100 + 0.5) / 100;
         System.out.println("value of y after rounding to tenths position: "+ y );
-        return y;
     }
 
-    public static double roundToHundredths(double x){
+    public static void roundToHundredths(double x){
         double y;
         y = Math.floor(x * 100 + 0.5) / 1000;
         System.out.println("value of y after rounding to hundredths position: "+ y );
-        return y;
     }
-    public static double roundToThousandths(double x){
+    public static void roundToThousandths(double x){
         double y;
         y = Math.floor(x * 100 + 0.5) / 10000;
         System.out.println("value of y after rounding to thousandths position: "+ y );
-        return y;
     }
 
 
